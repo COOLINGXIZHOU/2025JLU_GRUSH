@@ -120,7 +120,7 @@ int main(void)
 	HAL_TIM_Encoder_Start(&htim4,TIM_CHANNEL_ALL);
 	HAL_TIM_Base_Start_IT(&htim1);
 	HAL_TIM_Base_Start_IT(&htim2);
-	//À¶ÑÀ
+	//ï¿½ï¿½ï¿½ï¿½
 	HAL_UART_Receive_IT(&huart2, &rec_data, 1);
   HAL_TIM_Base_Start(&htim13); //psc:16800-1
 //	Motor_SetPWM9_1(0);

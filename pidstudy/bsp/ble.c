@@ -37,6 +37,7 @@ void ble_uart_data_rec(void)
                         {
                                 sprintf(send_buff, "qiao\r\n");
                                 HAL_UART_Transmit(&huart2, (uint8_t *)send_buff, sizeof(send_buff), 50);
+																led_showB(1);
                         }
                         else if(rec_buff[0] == 'b' && rec_buff[1] == 'e' && rec_buff[2] == 'i')  //bei
                         {
