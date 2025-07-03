@@ -8,7 +8,7 @@ pidstudy\oled.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 pidstudy\oled.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 pidstudy\oled.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 pidstudy\oled.o: ../Drivers/CMSIS/Include/core_cm4.h
-pidstudy\oled.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdint.h
+pidstudy\oled.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 pidstudy\oled.o: ../Drivers/CMSIS/Include/cmsis_version.h
 pidstudy\oled.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 pidstudy\oled.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -16,7 +16,7 @@ pidstudy\oled.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 pidstudy\oled.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
 pidstudy\oled.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 pidstudy\oled.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-pidstudy\oled.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stddef.h
+pidstudy\oled.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 pidstudy\oled.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 pidstudy\oled.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 pidstudy\oled.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
@@ -44,13 +44,13 @@ pidstudy\oled.o: ..\bsp\Key.h
 pidstudy\oled.o: ..\bsp\PWM.h
 pidstudy\oled.o: ..\bsp\Motor.h
 pidstudy\oled.o: ..\bsp\Encoder.h
-pidstudy\oled.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdio.h
-pidstudy\oled.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdarg.h
-pidstudy\oled.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\string.h
-pidstudy\oled.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\math.h
+pidstudy\oled.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+pidstudy\oled.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+pidstudy\oled.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\string.h
+pidstudy\oled.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\math.h
 pidstudy\oled.o: ..\bsp\Serial.h
 pidstudy\oled.o: ..\bsp\Huidu.h
 pidstudy\oled.o: ..\bsp\MPU6050.h
 pidstudy\oled.o: ..\bsp\MPU6050_Reg.h
 pidstudy\oled.o: ..\bsp\MyI2C.h
-pidstudy\oled.o: ../Core/Inc/dma.h
+pidstudy\oled.o: ..\bsp\ble.h

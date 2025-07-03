@@ -8,7 +8,7 @@ pidstudy\myi2c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 pidstudy\myi2c.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 pidstudy\myi2c.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 pidstudy\myi2c.o: ../Drivers/CMSIS/Include/core_cm4.h
-pidstudy\myi2c.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdint.h
+pidstudy\myi2c.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 pidstudy\myi2c.o: ../Drivers/CMSIS/Include/cmsis_version.h
 pidstudy\myi2c.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 pidstudy\myi2c.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -16,7 +16,7 @@ pidstudy\myi2c.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 pidstudy\myi2c.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
 pidstudy\myi2c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 pidstudy\myi2c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-pidstudy\myi2c.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stddef.h
+pidstudy\myi2c.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 pidstudy\myi2c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 pidstudy\myi2c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 pidstudy\myi2c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
@@ -44,13 +44,13 @@ pidstudy\myi2c.o: ..\bsp\Key.h
 pidstudy\myi2c.o: ..\bsp\PWM.h
 pidstudy\myi2c.o: ..\bsp\Motor.h
 pidstudy\myi2c.o: ..\bsp\Encoder.h
-pidstudy\myi2c.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdio.h
-pidstudy\myi2c.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdarg.h
-pidstudy\myi2c.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\string.h
-pidstudy\myi2c.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\math.h
+pidstudy\myi2c.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+pidstudy\myi2c.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+pidstudy\myi2c.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\string.h
+pidstudy\myi2c.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\math.h
 pidstudy\myi2c.o: ..\bsp\Serial.h
 pidstudy\myi2c.o: ..\bsp\Huidu.h
 pidstudy\myi2c.o: ..\bsp\MPU6050.h
 pidstudy\myi2c.o: ..\bsp\MPU6050_Reg.h
 pidstudy\myi2c.o: ..\bsp\MyI2C.h
-pidstudy\myi2c.o: ../Core/Inc/dma.h
+pidstudy\myi2c.o: ..\bsp\ble.h

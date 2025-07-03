@@ -8,7 +8,7 @@ pidstudy\mpu6050.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 pidstudy\mpu6050.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 pidstudy\mpu6050.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 pidstudy\mpu6050.o: ../Drivers/CMSIS/Include/core_cm4.h
-pidstudy\mpu6050.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdint.h
+pidstudy\mpu6050.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 pidstudy\mpu6050.o: ../Drivers/CMSIS/Include/cmsis_version.h
 pidstudy\mpu6050.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 pidstudy\mpu6050.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -16,7 +16,7 @@ pidstudy\mpu6050.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 pidstudy\mpu6050.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
 pidstudy\mpu6050.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 pidstudy\mpu6050.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-pidstudy\mpu6050.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stddef.h
+pidstudy\mpu6050.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 pidstudy\mpu6050.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 pidstudy\mpu6050.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 pidstudy\mpu6050.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
@@ -44,13 +44,13 @@ pidstudy\mpu6050.o: ..\bsp\Key.h
 pidstudy\mpu6050.o: ..\bsp\PWM.h
 pidstudy\mpu6050.o: ..\bsp\Motor.h
 pidstudy\mpu6050.o: ..\bsp\Encoder.h
-pidstudy\mpu6050.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdio.h
-pidstudy\mpu6050.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdarg.h
-pidstudy\mpu6050.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\string.h
-pidstudy\mpu6050.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\math.h
+pidstudy\mpu6050.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+pidstudy\mpu6050.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+pidstudy\mpu6050.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\string.h
+pidstudy\mpu6050.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\math.h
 pidstudy\mpu6050.o: ..\bsp\Serial.h
 pidstudy\mpu6050.o: ..\bsp\Huidu.h
 pidstudy\mpu6050.o: ..\bsp\MPU6050.h
 pidstudy\mpu6050.o: ..\bsp\MPU6050_Reg.h
 pidstudy\mpu6050.o: ..\bsp\MyI2C.h
-pidstudy\mpu6050.o: ../Core/Inc/dma.h
+pidstudy\mpu6050.o: ..\bsp\ble.h

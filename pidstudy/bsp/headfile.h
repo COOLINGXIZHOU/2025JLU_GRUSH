@@ -24,7 +24,8 @@
 #include "MPU6050.h"
 #include "MPU6050_Reg.h"
 #include "MyI2C.h"
-#include "dma.h"
+//#include "dma.h"
+#include "ble.h"
 extern int16_t location;
 extern int16_t speed;
 extern TIM_HandleTypeDef htim1;

@@ -1,8 +1,7 @@
---cpu=Cortex-M4.fp.sp
+--cpu=Cortex-M4.fp
 "pidstudy\startup_stm32f407xx.o"
 "pidstudy\main.o"
 "pidstudy\gpio.o"
-"pidstudy\dma.o"
 "pidstudy\tim.o"
 "pidstudy\usart.o"
 "pidstudy\stm32f4xx_it.o"
@@ -37,6 +36,7 @@
 "pidstudy\huidu.o"
 "pidstudy\mpu6050.o"
 "pidstudy\myi2c.o"
+"pidstudy\ble.o"
 --strict --scatter "pidstudy\pidstudy.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

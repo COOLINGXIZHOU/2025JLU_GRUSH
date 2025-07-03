@@ -8,7 +8,7 @@ pidstudy\led.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 pidstudy\led.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 pidstudy\led.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 pidstudy\led.o: ../Drivers/CMSIS/Include/core_cm4.h
-pidstudy\led.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdint.h
+pidstudy\led.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 pidstudy\led.o: ../Drivers/CMSIS/Include/cmsis_version.h
 pidstudy\led.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 pidstudy\led.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -16,7 +16,7 @@ pidstudy\led.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 pidstudy\led.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
 pidstudy\led.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 pidstudy\led.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-pidstudy\led.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stddef.h
+pidstudy\led.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 pidstudy\led.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 pidstudy\led.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 pidstudy\led.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
@@ -44,13 +44,13 @@ pidstudy\led.o: ..\bsp\Key.h
 pidstudy\led.o: ..\bsp\PWM.h
 pidstudy\led.o: ..\bsp\Motor.h
 pidstudy\led.o: ..\bsp\Encoder.h
-pidstudy\led.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdio.h
-pidstudy\led.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdarg.h
-pidstudy\led.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\string.h
-pidstudy\led.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\math.h
+pidstudy\led.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+pidstudy\led.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+pidstudy\led.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\string.h
+pidstudy\led.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\math.h
 pidstudy\led.o: ..\bsp\Serial.h
 pidstudy\led.o: ..\bsp\Huidu.h
 pidstudy\led.o: ..\bsp\MPU6050.h
 pidstudy\led.o: ..\bsp\MPU6050_Reg.h
 pidstudy\led.o: ..\bsp\MyI2C.h
-pidstudy\led.o: ../Core/Inc/dma.h
+pidstudy\led.o: ..\bsp\ble.h

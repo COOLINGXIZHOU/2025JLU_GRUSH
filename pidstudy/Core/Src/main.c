@@ -50,6 +50,7 @@ extern int16_t locationA;
 extern int16_t speedA;
 extern int16_t locationB;
 extern int16_t speedB;
+extern uint8_t rec_data;
 int8_t j;
 uint8_t KeyNum;
 extern float TargetA,OutA,ActualA;
@@ -107,6 +108,8 @@ int main(void)
   MX_TIM4_Init();
   MX_TIM8_Init();
   MX_TIM2_Init();
+  MX_TIM13_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
   OLED_Init();
 	HAL_TIM_PWM_Start(&htim9,TIM_CHANNEL_1);
@@ -117,6 +120,9 @@ int main(void)
 	HAL_TIM_Encoder_Start(&htim4,TIM_CHANNEL_ALL);
 	HAL_TIM_Base_Start_IT(&htim1);
 	HAL_TIM_Base_Start_IT(&htim2);
+	//А¶СА
+	HAL_UART_Receive_IT(&huart2, &rec_data, 1);
+  HAL_TIM_Base_Start(&htim13); //psc:16800-1
 //	Motor_SetPWM9_1(0);
 //	Motor_SetPWM9_2(70);
   /* USER CODE END 2 */
@@ -126,6 +132,7 @@ int main(void)
   while (1)
   {
 		Huidu_Get();
+		ble_uart_data_rec();
 		OLED_Printf(0,0,OLED_6X8,"huidu[0]=%d",huidu[0]);
 		OLED_Printf(0,8,OLED_6X8,"huidu[1]=%d",huidu[1]);
 		OLED_Update();

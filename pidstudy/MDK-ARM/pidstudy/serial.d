@@ -8,7 +8,7 @@ pidstudy\serial.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 pidstudy\serial.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 pidstudy\serial.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 pidstudy\serial.o: ../Drivers/CMSIS/Include/core_cm4.h
-pidstudy\serial.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdint.h
+pidstudy\serial.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 pidstudy\serial.o: ../Drivers/CMSIS/Include/cmsis_version.h
 pidstudy\serial.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 pidstudy\serial.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -16,7 +16,7 @@ pidstudy\serial.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 pidstudy\serial.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
 pidstudy\serial.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 pidstudy\serial.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-pidstudy\serial.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stddef.h
+pidstudy\serial.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 pidstudy\serial.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 pidstudy\serial.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 pidstudy\serial.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
@@ -44,13 +44,13 @@ pidstudy\serial.o: ..\bsp\Key.h
 pidstudy\serial.o: ..\bsp\PWM.h
 pidstudy\serial.o: ..\bsp\Motor.h
 pidstudy\serial.o: ..\bsp\Encoder.h
-pidstudy\serial.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdio.h
-pidstudy\serial.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdarg.h
-pidstudy\serial.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\string.h
-pidstudy\serial.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\math.h
+pidstudy\serial.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+pidstudy\serial.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+pidstudy\serial.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\string.h
+pidstudy\serial.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\math.h
 pidstudy\serial.o: ..\bsp\Serial.h
 pidstudy\serial.o: ..\bsp\Huidu.h
 pidstudy\serial.o: ..\bsp\MPU6050.h
 pidstudy\serial.o: ..\bsp\MPU6050_Reg.h
 pidstudy\serial.o: ..\bsp\MyI2C.h
-pidstudy\serial.o: ../Core/Inc/dma.h
+pidstudy\serial.o: ..\bsp\ble.h

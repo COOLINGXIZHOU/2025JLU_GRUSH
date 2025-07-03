@@ -8,7 +8,7 @@ pidstudy\motor.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 pidstudy\motor.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 pidstudy\motor.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 pidstudy\motor.o: ../Drivers/CMSIS/Include/core_cm4.h
-pidstudy\motor.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdint.h
+pidstudy\motor.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 pidstudy\motor.o: ../Drivers/CMSIS/Include/cmsis_version.h
 pidstudy\motor.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 pidstudy\motor.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -16,7 +16,7 @@ pidstudy\motor.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 pidstudy\motor.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
 pidstudy\motor.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 pidstudy\motor.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-pidstudy\motor.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stddef.h
+pidstudy\motor.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 pidstudy\motor.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 pidstudy\motor.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 pidstudy\motor.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
@@ -44,13 +44,13 @@ pidstudy\motor.o: ..\bsp\Key.h
 pidstudy\motor.o: ..\bsp\PWM.h
 pidstudy\motor.o: ..\bsp\Motor.h
 pidstudy\motor.o: ..\bsp\Encoder.h
-pidstudy\motor.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdio.h
-pidstudy\motor.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\stdarg.h
-pidstudy\motor.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\string.h
-pidstudy\motor.o: D:\keilmdk\core\ARM\ARMV5\Bin\..\include\math.h
+pidstudy\motor.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+pidstudy\motor.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+pidstudy\motor.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\string.h
+pidstudy\motor.o: C:\Keil\MDK\ARM\ARMCC\Bin\..\include\math.h
 pidstudy\motor.o: ..\bsp\Serial.h
 pidstudy\motor.o: ..\bsp\Huidu.h
 pidstudy\motor.o: ..\bsp\MPU6050.h
 pidstudy\motor.o: ..\bsp\MPU6050_Reg.h
 pidstudy\motor.o: ..\bsp\MyI2C.h
-pidstudy\motor.o: ../Core/Inc/dma.h
+pidstudy\motor.o: ..\bsp\ble.h
