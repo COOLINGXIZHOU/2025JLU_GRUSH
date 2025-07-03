@@ -13,7 +13,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 	static uint8_t counts1,counts2;
 	if(htim->Instance==TIM1)//TIM1用于读取按键值的扫描和读取编码器速度位置的扫描
 	{
-		Key_Tick();
+//		Key_Tick();
 		counts1++;
 		if(counts1>=40)
 		{

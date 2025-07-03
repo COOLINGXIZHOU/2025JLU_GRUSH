@@ -52,7 +52,7 @@ extern int16_t locationB;
 extern int16_t speedB;
 extern uint8_t rec_data;
 int8_t j;
-uint8_t KeyNum;
+extern uint8_t KeyNum;
 extern float TargetA,OutA,ActualA;
 extern float KpA,KiA,KdA;
 extern float Error0A,Error1A,ErrorIntA;
@@ -133,8 +133,9 @@ int main(void)
   {
 		Huidu_Get();
 		ble_uart_data_rec();
-		OLED_Printf(0,0,OLED_6X8,"huidu[0]=%d",huidu[0]);
-		OLED_Printf(0,8,OLED_6X8,"huidu[1]=%d",huidu[1]);
+		Key_Scan();
+		OLED_Printf(0,0,OLED_6X8,"keynum=%d",KeyNum);
+//		OLED_Printf(0,8,OLED_6X8,"huidu[1]=%d",huidu[1]);
 		OLED_Update();
 		
 //		KeyNum=Key_GetNum();
